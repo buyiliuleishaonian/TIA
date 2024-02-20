@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tagtable name="新建场景">
+  <!-- exported by FACTORY I/O version 2.5.0 -->
+  <Tag type="Bool" addr="%I0.0">启动</Tag>
+  <Tag type="Bool" addr="%I0.1">暂停</Tag>
+  <Tag type="Bool" addr="%I0.2">停止</Tag>
+  <Tag type="Bool" addr="%I0.3">传感器</Tag>
+  <Tag type="Bool" addr="%I0.4">FACTORY I/O (Running)</Tag>
+  <Tag type="Bool" addr="%Q0.0">绿灯</Tag>
+  <Tag type="Bool" addr="%Q0.1">黄灯</Tag>
+  <Tag type="Bool" addr="%Q0.2">红灯</Tag>
+  <Tag type="Bool" addr="%Q0.3">绿灯1</Tag>
+  <Tag type="Bool" addr="%Q0.4">黄灯1</Tag>
+  <Tag type="Bool" addr="%Q0.5">红灯1</Tag>
+  <Tag type="Bool" addr="%Q0.6">电机</Tag>
+</Tagtable>

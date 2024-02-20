@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="FactoryIO_Template_S7-1200_V15_V16" typeText="类型" messageText="消息" timeText="时间">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2022/8/21 9:00:10">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="已开始升级" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2022/8/21 9:00:13" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2022/8/21 9:00:13">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2022/8/21 9:00:14" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2022/8/21 9:00:14">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2022/8/21 9:00:14" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2022/8/21 9:00:34" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: RDST_DTL_SFC[SFC151]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2022/8/21 9:00:34" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: WRST_DTL_SFC[SFC156]</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="2022/8/21 9:00:35">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="项目元素：“\PLC_1\ProgramBlocksFolder\Main”- “General; Event”的校验和不一致。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="2022/8/21 9:00:37">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="项目元素：“\PLC_1\ProgramBlocksFolder\MHJ-PLC-Lab-Function-S71200”- “General”的校验和不一致。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2022/8/21 9:00:40">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="正在转换交叉引用信息。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2022/8/21 9:00:41">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="交叉引用信息已成功创建." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2022/8/21 9:00:41">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="交叉引用信息转换完成。" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2022/8/21 9:00:42" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7BSW.V15.0.0.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="2022/8/21 9:00:42" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:15.00.00.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="2022/8/21 9:00:44">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="项目“E:\博图学习（每编写一段程序就需要验证一下）\FactoryIO_Template_S7-1200_V15\System\PEData.plf”已成功升级并另存为项目“E:\博图学习（每编写一段程序就需要验证一下）\FactoryIO_Template_S7-1200_V15_V16\System\PEData.plf”。" />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="2022/8/21 9:00:44">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="FinalCheckRemainingErrors" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="2022/8/21 9:00:44" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+</LogFile>
